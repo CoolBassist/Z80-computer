@@ -1,6 +1,6 @@
 # Z80-computer
 
-The Z80 is an 8-bit CPU designed by Zilog that was first introduced in 1976, and was one of the first microprocessors that allowed the general public, not just large businesses, to own a computer. The aim of this project is to design a Z80 computer with the following features: 256k of read only memory, and 256k of RAM, and output in the form of either 8 LEDs, or an LCD screen, the simplest possible way to load programs, and get some output from these programs. I hope to explain the design process and all the moving parts in this document. 
+The Z80 is an 8-bit CPU designed by Zilog that was first introduced in 1976, and was one of the first microprocessors that allowed the general public, not just large businesses, to own a computer. The aim of this project is to design a Z80 computer with the following features: 256k of read only memory, and 256k of RAM, and output in the form of an LCD screen. I have written [some programs](https://github.com/CoolBassist/Z80-Misc) for it.
 
 ## Components
 ### The Big Three
