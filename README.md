@@ -2,6 +2,25 @@
 
 The Z80 is an 8-bit CPU designed by Zilog that was first introduced in 1976, and was one of the first microprocessors that allowed the general public, not just large businesses, to own a computer. The aim of this project is to design a Z80 computer with the following features: 256k of read only memory, and 256k of RAM, and output in the form of an LCD screen. I have written [some programs](https://github.com/CoolBassist/Z80-Misc) for it.
 
+## Versions
+
+### 1.0
+- Initial design of computer.
+- 32kb of ROM, and an additional 32kb of RAM.
+- Input is given by a PS/2 keyboard module plugged into header pins.
+- Output is sent to an LCD screen.
+
+### 1.1
+- Simplified clock circuit, now gives a constant pulse.
+- LCD_EN is now negated, since the LCD is enabled on a high pulse.
+- Switched to dedicated PS/2 connector.
+- Removed clock LED.
+
+### 1.2
+- Redid the majority of the schematic. Redesigned the symbols to have a logical as opposed to realistic layout.
+- Added ability to switch connections on the PS/2 connector to allow all combinations. Previous version shorted the power.
+- Switched to On-Off switch for the reset button.
+
 ## Components
 ### The Big Three
 - Zilog CPU. I am using a modern Z84C00. Its static design means that the clock signal can be as slow or as fast as we want (up to several MHz).
